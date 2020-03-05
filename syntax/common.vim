@@ -1,9 +1,6 @@
 " Define the default highlighting.
 " For version 5.8 and later: only when an item doesn't have highlighting yet
-let did_typescript_hilink = 1
-
 syntax sync fromstart
-command -nargs=+ HiLink hi def link <args>
 
 "Dollar sign is permitted anywhere in an identifier
 setlocal iskeyword-=$
